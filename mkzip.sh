@@ -11,7 +11,7 @@ modversion="$(jq -r .version <info.json)"
 
 mkdir "out/$modname"
 
-git ls-files --cached -z | xargs -0 cp -t "out/$modname"
+git ls-files --cached | sed '/.sh/d' | xargs cp -t "out/$modname"
 
 (cd out; zip -r "${modname}_${modversion}.zip" "$modname")
 
