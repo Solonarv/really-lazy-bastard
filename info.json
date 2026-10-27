@@ -3,7 +3,8 @@
     "version": "0.1.0",
     "title": "Really Lazy Bastard",
     "author": "Solonarv",
-    "factorio_version": "2.0",
+    "factorio_version": "2.1",
     "dependencies": ["base", "space-age"],
-    "description": "Adds a Space Age version of Lazy Bastard that requires you to win the game, not just launch a rocket."
+    "description": "Adds a Space Age version of Lazy Bastard that requires you to win the game, not just launch a rocket.",
+    "homepage": "https://github.com/Solonarv/really-lazy-bastard"
 }
